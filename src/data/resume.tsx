@@ -231,7 +231,7 @@ export const DATA = {
     },
     {
       title: "AttendEase",
-      href: "",
+      href: "#projects",
       dates: "April 2024",
       active: true,
       description:
@@ -256,7 +256,7 @@ export const DATA = {
     },
     {
       title: "ReoTube",
-      href: "",
+      href: "#projects",
       dates: "July 2024",
       active: true,
       description:
