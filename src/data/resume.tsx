@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Full-Stack Web and React Native Mobile Developer with a passion for technology and startups. I love exploring deep Wikipedia rabbit holes and building projects.",
   summary:
-    "Currently enrolled in [Bachelor of Technology in Artificial Intelligence & Data Science](/#education). Apart from coding, I enjoy traveling, meeting new people, and plyaing badminton. ",
+    "Currently enrolled in [Bachelor of Technology in Artificial Intelligence & Data Science](/#education). Apart from coding, I enjoy traveling, meeting new people, and playing badminton. ",
   avatarUrl: "/me.png",
   skills: [
     "React",
@@ -79,19 +79,19 @@ export const DATA = {
     },
   },
 
-  //work: [
-    // {
-    //   company: "Atomic Finance",
-    //   href: "https://atomic.finance",
-    //   badges: [],
-    //   location: "Remote",
-    //   title: "Bitcoin Protocol Engineer",
-    //   logoUrl: "/atomic.png",
-    //   start: "May 2021",
-    //   end: "Oct 2022",
-    //   description:
-    //     "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
-    // },
+  work: [
+    {
+      company: "CliqueRaft",
+      href: "https://www.cliqueraft.com/",
+      badges: [],
+      location: "Remote",
+      title: "React Native Intern",
+      logoUrl: "/cliqueraft.svg",
+      start: "Aug 2024",
+      end: "Present",
+      description:
+        ""
+    },
     // {
     //   company: "Shopify",
     //   badges: [],
@@ -152,7 +152,7 @@ export const DATA = {
     //   description:
     //     "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
     // },
-  //],
+  ],
   education: [
     {
       school: "Maharaja Agrasen Institute of Technology",
