@@ -31,21 +31,28 @@ export const ResumeCard = ({
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  const handleCardClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     if (description) {
       e.preventDefault();
       setIsExpanded(!isExpanded);
     }
   };
 
+  const handleLogoClick = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if(href) {
+      window.location.href = href
+    }
+  }
+
   return (
     <Link
       href={href || "#"}
       className="block cursor-pointer"
-      onClick={handleClick}
+      onClick={handleCardClick}
     >
       <Card className="flex">
-        <div className="flex-none">
+        <div className="flex-none" onClick={handleLogoClick}>
           <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
             <AvatarImage
               src={logoUrl}
