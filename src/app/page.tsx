@@ -156,7 +156,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      {/* BADIYA HACKATHONS MAI PARTICIPATE KARRNA HAI */}
+
       <section id="hackathons">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
@@ -171,7 +171,7 @@ export default function Page() {
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   During my time in university, I attended{" "}
                   {/* {DATA.hackathons.length} */}
-                  10+ hackathons. People from around the
+                  50+ hackathons. People from around the
                   country would come together and build incredible things in 2-3
                   days. It was eye-opening to see the endless possibilities
                   brought to life by a group of motivated and passionate
