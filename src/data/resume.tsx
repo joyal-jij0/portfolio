@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
+import { title } from "process";
 
 export const DATA = {
   name: "Joyal Jijo",
@@ -326,6 +327,21 @@ export const DATA = {
       ],
     },
     {
+      title: "BAJAJ HackRX 6.0", 
+      dates: "23 Aug 2025", 
+      location: "Bangaluru, India",
+      description: "Build a RAG document system for 6+ formats (PDF, DOCX, XLSX, PPTX, images, emails) with Browser automation for search, navigation, forms, and data capture; use an LLM to write and edit code, run sandbox checks, and auto-deploy to GitHub (auto-commit and PR) behind CI gating.", 
+      image: "https://hackrx.blob.core.windows.net/assets/hackrx_6/bajaj.png?sv=2020-08-04&st=2025-07-23T10%3A09%3A13Z&se=2026-04-26T10%3A09%3A00Z&sr=b&sp=r&sig=rXuGSkcSvH7kdiCWuR%2BFvhWjNAIGQM6w%2Bqt7mkZmPzU%3D",
+      win: "Larry Page Award for Best Innovation", 
+      links: [
+        {
+          title: "Repo",
+          icon: <Icons.github className="h-4 w-4"/>,
+          href: "https://github.com/HackRx-6/Squirtle-Squad"
+        }
+      ]
+    },
+    {
       title: "Top 26 Pragati AI for Impact Hackathon | The /Nudge Institute | Meta",
       dates: "May 2025",
       location: "Bengaluru/Gurugram",
@@ -333,7 +349,7 @@ export const DATA = {
         "Built Krishi Sahayak AI a smart platform that gives Indian farmers hyperlocal weather forecasts, instant pest detection, easy credit access, and more, all in one multilingual app. Delivers hyperlocal weather forecasts, instant pest and disease detection, AI-driven credit scoring, and easy FPO management.",
       image:
         "https://res.cloudinary.com/dfhj4i9hd/image/upload/v1752000973/Screenshot_2025-07-09_at_12.23.33_AM_xpzk8j.png",
-        win: "Top 26",
+        win: "Top 25",
       links: [
         {
           title: "Repo",
