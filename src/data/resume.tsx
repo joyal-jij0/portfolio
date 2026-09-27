@@ -9,9 +9,9 @@ export const DATA = {
   location: "New Delhi, India",
   locationLink: "https://maps.app.goo.gl/PjgekN5Tc9LoyjtCA",
   description:
-    "Building Efficient AI Systems with Deep Learning & Computer Vision | Web and React Native | Technology & Startups",
+    "Software Engineer | AI Systems & Full-Stack Development | Web and React Native | Technology & Startups",
   summary:
-    "Currently enrolled in [Bachelor of Technology in Artificial Intelligence & Data Science](/#education). Apart from coding, I enjoy traveling, meeting new people, and playing badminton. ",
+    "Currently enrolled in [M.S. Computer Science at University of Minnesota ](/#education). Apart from coding, I enjoy traveling, meeting new people, and playing badminton. ",
   avatarUrl: "/me.png",
   skills: [
     "Javascript",
@@ -22,10 +22,14 @@ export const DATA = {
     "React",
     "Next.js",
     "Node.js",
+    "Bun.js",
     "Express.js",
     "React Native",
     "Expo",
     "Tailwind",
+    "Fast API",
+    "Flask",
+    "Websockets",
     "Transformers.js",
     "Redux Toolkit",
     "React Router",
@@ -38,13 +42,18 @@ export const DATA = {
     "FireBase",
     "Appwrite",
     "TensorFlow",
-    "PyTorch",
     "OpenCV",
     "Numpy",
     "Pandas",
     "Scikit-learn",
+    "RAG",
+    "LLM",
+    "VLM",
     "LangChain",
     "VectorDB",
+    "AWS",
+    "Azure",
+    "GCP"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -54,7 +63,7 @@ export const DATA = {
   ],
   contact: {
     email: "joyal2405@gmail.com",
-    tel: "+918287301299",
+    tel: "+17632888249",
     social: {
       GitHub: {
         name: "GitHub",
@@ -95,6 +104,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Landinghero",
+      badges: [],
+      href: "https://www.landinghero.ai",
+      location: "Remote",
+      title: "Software Engineer",
+      logoUrl: "/landinghero.jpeg",
+      start: "Jan 2026",
+      end: "May 2026",
+      description: 
+      "Built AI-powered website creation tools, including a visual editor and voice assistant, helping scale the platform to 1,000+ users and 700+ website deployments"
+    },
+    {
       company: "Ukumi",
       badges: [],
       href: "https://www.ukumi.ai/",
@@ -104,7 +125,7 @@ export const DATA = {
       start: "Jan 2025",
       end: "Feb 2025",
       description:
-        "By redesigning the primary podcast editing feature with an intuitive, non-timeline-based workflow, I significantly reduced the learning curve for new users. I also researched on-device AI inference using WebGPU and Transformers.js, which enabled client-side processing and allowed me to engineer a client-side solution that replaced a costly external API effectively cutting the feature's recurring processing costs to zero. Additionally, I automated an internal process that previously took a full day, reducing its execution time to just a few minutes.",
+        "Built AI-powered video editing experiences and productionized on-device inference with Transformers.js, eliminating a third-party API and reducing inference costs to $0"
     },
     {
       company: "CliqueRaft",
@@ -116,7 +137,7 @@ export const DATA = {
       start: "Aug 2024",
       end: "Nov 2024",
       description:
-        "Built a cross platform mobile application for both IOS and Android and an RESTful API backend utilizing React Native, Expo, Node.js, PostgreSQL, MongoDB writing over 7,000 LOC.",
+        "Built a cross-platform mobile app and scalable backend with real-time chat, authentication, push notifications, and PostgreSQL/MongoDB integration"
     },
     // {
     //   company: "Nvidia",
@@ -168,6 +189,15 @@ export const DATA = {
     // },
   ],
   education: [
+    {
+      school: "University of Minnesota, Twin Cities",
+      href: "https://cse.umn.edu/",
+      degree:
+        "Masters's of Science in Computer Science",
+      logoUrl: "/umn.jpeg",
+      start: "2026",
+      end: "present",
+    },
     {
       school: "Maharaja Agrasen Institute of Technology",
       href: "https://mait.ac.in",
@@ -331,7 +361,7 @@ export const DATA = {
       dates: "23 Aug 2025", 
       location: "Bangaluru, India",
       description: "Build a RAG document system for 6+ formats (PDF, DOCX, XLSX, PPTX, images, emails) with Browser automation for search, navigation, forms, and data capture; use an LLM to write and edit code, run sandbox checks, and auto-deploy to GitHub (auto-commit and PR) behind CI gating.", 
-      image: "https://hackrx.blob.core.windows.net/assets/hackrx_6/bajaj.png?sv=2020-08-04&st=2025-07-23T10%3A09%3A13Z&se=2026-04-26T10%3A09%3A00Z&sr=b&sp=r&sig=rXuGSkcSvH7kdiCWuR%2BFvhWjNAIGQM6w%2Bqt7mkZmPzU%3D",
+      image: "https://res.cloudinary.com/dfhj4i9hd/image/upload/v1790482983/bajaj_nucz3w.jpg",
       win: "Larry Page Award for Best Innovation", 
       links: [
         {
